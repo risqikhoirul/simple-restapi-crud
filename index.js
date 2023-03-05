@@ -76,7 +76,7 @@ app.post("/add", (req, res) => {
         return res.status(500).json({
           success: false,
           message: "Error add data",
-          error: erro,
+          error: erro || err,
         });
       }
       res.status(200).json({
@@ -100,7 +100,7 @@ app.put("/update/:id", (req, res) => {
           return res.status(500).json({
             success: false,
             message: "Error update data",
-            error: erro,
+            error: erro || err,
           });
         }
         res.status(200).json({
