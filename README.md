@@ -12,6 +12,7 @@ CREATE DATABASE produksi_pangan;
 ```
 git clone https://github.com/risqikhoirul/simple-restapi-crud.git
 cd simple-restapi-crud
+npm i -g nodemon
 npm i
 ```
 
