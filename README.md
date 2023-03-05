@@ -3,7 +3,7 @@ simple rest api crud with expressjs and mysql
 
 ## Create Database
 
-```
+```sql
 CREATE DATABASE produksi_pangan;
 ```
 
